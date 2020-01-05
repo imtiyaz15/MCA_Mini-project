@@ -41,25 +41,34 @@ ul {
   }
   header .highlight, header .current a {
     color: #e8491d;
-    font-weight: bold;
+    font-weight: bold;	
   }
+
   header a:hover {
     color: #cccccc;
     font-weight: bold;
   }
   #showcase {
-    min-height: 400px;
-    background: url('showcase.jpg') no-repeat 0 -400px;
-    text-align: center;
+    min-height: 500px;
+    background: url('showcase.jpg') no-repeat 0 -200px;
     color: #ffffff;
+	margin-left: -300px
   }
   #showcase h1 {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 55px;
     margin-bottom: 10px;
+	text-align: center;
+	margin-right: -400px
+	
+	
   }
   #showcase p {
     font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	margin-top: -20px;
+	margin-right: -400px
   }
   #newsletter {
     padding: 15px;
